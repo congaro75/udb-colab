@@ -4,14 +4,14 @@
 # blacklist_urls: List of URLs to avoid while fetching download links.
 
 Anime (Gogoanime):
-  download_dir: D:\Anime
+  download_dir: /content/Download/Anime
   request_timeout: 30
   alternate_resolution_selector: 'lowest'
   preferred_urls:
   blacklist_urls:
 
 Anime (Animepahe):
-  download_dir: D:\Anime
+  download_dir: /content/Download/Anime
   request_timeout: 30
   alternate_resolution_selector: 'lowest'
 
@@ -22,21 +22,21 @@ Drama (Myasiantv):
   blacklist_urls:
 
 Movies & TV Shows (Vidsrc):
-  download_dir: D:\Entertainment\Hollywood
+  download_dir: /content/Download
   request_timeout: 30
   alternate_resolution_selector: 'lowest'
   preferred_urls:
   blacklist_urls:
 
 Movies & TV Shows (Superembed):
-  download_dir: D:\Entertainment\Hollywood
+  download_dir: /content/Download
   request_timeout: 30
   alternate_resolution_selector: 'lowest'
   preferred_urls:
   blacklist_urls:
 
 DownloaderConfig:
-  download_dir: C:\Users\HP\Downloads\Video   # Default directory. Can override by setting this in above client-specific configuration.
+  download_dir: /content/Download/m3u8   # Default directory. Can override by setting this in above client-specific configuration.
   temp_download_dir: auto                     # If set to auto, creates a temp location under the target folder
   concurrency_per_file: auto                  # Concurrency to download segments in a m3u8 file
   request_timeout: 30
