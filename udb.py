@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
         # parse cli arguments
         parser = argparse.ArgumentParser(description='UDB Client to download anime / drama / movies / series in one-shot.')
-        parser.add_argument('-c', '--conf', default='config_udb.yaml',
+        parser.add_argument('-c', '--conf', default='/content/Tools/config_udb.yaml',
                             help='configuration file for UDB client (default: config_udb.yaml)')
         parser.add_argument('-l', '--log-file', help='custom file name for logging (default: udb_{YYYYMMDDHHMMSS}.log)')
         parser.add_argument('-v', '--version', default=False, action='store_true', help='display current version of UDB')
